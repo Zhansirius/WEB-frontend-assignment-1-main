@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stalzone Donate</title>
+    <link rel="stylesheet" href="CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">STALZONE</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="main.html">Main page</a></li>
+                <li><a href="">StalCalc</a></li>
+                <li><a href="">InteractiveMap</a></li>
+            </ul>
+        </nav>
+                <div class="nav-icon">
+        <img src="assets/icon.png" alt="Game Icon">
+    </div>
+    </header>
+    <p class="para">Wanna be strongest player amongst your friends or rival fractions? You have two ways to achieve that. Grind or donate!</p>
+    <br><br>
+        <img src="assets/money.jpg" alt="Right side image" class="side-image">
+    </div>
+<div class="donate-section">
+    <div class="side-banner">
+        <img src="assets/ZIVKAS.jpg" alt="Left Banner">
+    </div>
+
+    <div class="form-container">
+        <h2>DONATE TO PLAYER</h2>
+        <form action="#" method="POST" class="custom-form">
+            <div class="form-group">
+                <label for="nickname">Player Nickname:</label>
+                <input type="text" id="nickname" name="nickname" placeholder="Enter nickname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+            </div>
+
+            <div class="form-group">
+                <label>Select Fraction:</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="fraction" value="rise" checked> Rise
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="fraction" value="frontier"> Frontier
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="fraction" value="mercenaries"> Mercenaries
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="fraction" value="covenant"> Covenant
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Select Amount:</label>
+                <div class="radio-grid">
+                    <label class="radio-tile">
+                        <input type="radio" name="amount" value="550" checked>
+                        <span>550 SC for 2500KZT</span>
+                    </label>
+                    <label class="radio-tile">
+                        <input type="radio" name="amount" value="1725">
+                        <span>1725 SC for 7500KZT</span>
+                    </label>
+                    <label class="radio-tile">
+                        <input type="radio" name="amount" value="3600">
+                        <span>3600 SC for 15000KZT</span>
+                    </label>
+                    <label class="radio-tile">
+                        <input type="radio" name="amount" value="6500">
+                        <span>6500 SC for 25000KZT</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message you want to share with player:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">SEND DONATE</button>
+        </form>
+    </div>
+
+    <div class="side-banner">
+        <img src="assets/Cool.jpg" alt="Right Banner">
+    </div>
+</div>
+    <footer>
+        <p>Team members: Zhansir & Shakhriyar</p>
+    </footer>
+</body>
+</html>
