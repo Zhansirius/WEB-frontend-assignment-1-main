@@ -196,7 +196,27 @@ footer {
     margin: 60px auto;
     padding: 0 20px;
 }
+.team-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+    color: #ffffff;
+}
 
+.team-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.team-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cccccc;
+    max-width: 800px;
+    margin: 0 auto;
+}
 .features-content {
     flex: 1;
     color: #ffffff;
